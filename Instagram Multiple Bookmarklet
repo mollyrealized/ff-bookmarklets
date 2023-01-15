@@ -1,0 +1,1 @@
+javascript:window.open("https://sssinstagram.com/"+escape(location.href.slice(26)));
