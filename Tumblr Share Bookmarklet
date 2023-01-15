@@ -1,0 +1,1 @@
+javascript:location.href='http://www.tumblr.com/share?v=3&u='+encodeURIComponent(window.location.href)+'&t='+encodeURIComponent(document.title)
