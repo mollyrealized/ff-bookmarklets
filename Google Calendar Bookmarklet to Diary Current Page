@@ -1,0 +1,1 @@
+javascript:var today=new Date().toISOString().slice(0,10);var YYYYMMDD=today.replace(/-/g,"");window.open("https://calendar.google.com/calendar/r/eventedit?action=TEMPLATE&dates="+escape(YYYYMMDD)+"/"+escape(YYYYMMDD)+"&text="+escape(document.title)+"&details="+escape(location.href)+"&sf=true&output=xml");void(0);
