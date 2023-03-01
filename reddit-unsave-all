@@ -1,0 +1,1 @@
+javascript:(function() { var unsaves = $('.link-unsave-button a'); for (var i = 0, length = unsaves.length; i < length; i++) { setTimeout((function(i) { $(unsaves[i]).trigger('click'); }).bind(this, i), i * 2 * 1000); } setTimeout(function() { window.location.reload(); }, (length + 1) * 2 * 1000); })()
